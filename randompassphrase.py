@@ -8,4 +8,3 @@ all = lower + upper + numbers + symbols
 length= int(16)
 passphrase =''.join(random.sample(all, length))
 print(passphrase)
-
